@@ -1,0 +1,26 @@
+[Unit]
+Description=OtsCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=otscoin
+Group=otscoin
+
+Type=forking
+PIDFile=/var/lib/otscoind/otscoind.pid
+
+ExecStart=/usr/bin/otscoind -daemon -pid=/var/lib/otscoind/otscoind.pid \
+          -conf=/etc/otscoin/otscoin.conf -datadir=/var/lib/otscoind
+
+ExecStop=-/usr/bin/otscoin-cli -conf=/etc/otscoin/otscoin.conf \
+         -datadir=/var/lib/otscoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/otscoin_bg.qm</file>
+        <file alias="ca">locale/otscoin_ca.qm</file>
+        <file alias="cs">locale/otscoin_cs.qm</file>
+        <file alias="da">locale/otscoin_da.qm</file>
+        <file alias="de">locale/otscoin_de.qm</file>
+        <file alias="en">locale/otscoin_en.qm</file>
+        <file alias="en_US">locale/otscoin_en_US.qm</file>
+        <file alias="es">locale/otscoin_es.qm</file>
+        <file alias="fi">locale/otscoin_fi.qm</file>
+        <file alias="fr_FR">locale/otscoin_fr_FR.qm</file>
+        <file alias="hr">locale/otscoin_hr.qm</file>
+        <file alias="it">locale/otscoin_it.qm</file>
+        <file alias="ja">locale/otscoin_ja.qm</file>
+        <file alias="ko_KR">locale/otscoin_ko_KR.qm</file>
+        <file alias="nl">locale/otscoin_nl.qm</file>
+        <file alias="pl">locale/otscoin_pl.qm</file>
+        <file alias="pt">locale/otscoin_pt.qm</file>
+        <file alias="pt_BR">locale/otscoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/otscoin_ro_RO.qm</file>
+        <file alias="ru">locale/otscoin_ru.qm</file>
+        <file alias="sk">locale/otscoin_sk.qm</file>
+        <file alias="sv">locale/otscoin_sv.qm</file>
+        <file alias="tr">locale/otscoin_tr.qm</file>
+        <file alias="uk">locale/otscoin_uk.qm</file>
+        <file alias="zh_CN">locale/otscoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/otscoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

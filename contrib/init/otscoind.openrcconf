@@ -1,0 +1,26 @@
+# /etc/conf.d/otscoind: config file for /etc/init.d/otscoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/otscoin/otscoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/otscoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/otscoind.pid"
+
+# Where to write otscoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/otscoind"
+
+# User and group to own otscoind process
+#BITCOIND_USER="otscoin"
+#BITCOIND_GROUP="otscoin"
+
+# Path to otscoind executable
+#BITCOIND_BIN="/usr/bin/otscoind"
+
+# Nice value to run otscoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

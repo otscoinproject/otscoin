@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=OtsCoin
+Comment=OtsCoin P2P Cryptocurrency
+Comment[fr]=OtsCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=OtsCoin, eşten eşe kriptografik sanal para birimi
+Exec=otscoin-qt %u
+Terminal=false
+Type=Application
+Icon=otscoin128
+MimeType=x-scheme-handler/otscoin;
+Categories=Office;Finance;
